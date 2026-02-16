@@ -1392,9 +1392,9 @@ progress {
 
 .layout-tv .trackSelections {
   position: fixed;
-  left: 1.5em;
-  top: 48.6em;
-  width: 27em;
+  left: 2.5em;
+  top: 41.1em;
+  width: 22em;
   font-weight: 500;
   opacity: 1;
   animation: none;
@@ -1421,12 +1421,15 @@ progress {
 .layout-desktop .trackSelections.focuscontainer-x .selectVideo,
 .layout-desktop .trackSelections.focuscontainer-x .selectAudio,
 .layout-desktop .trackSelections.focuscontainer-x .selectSubtitles,
-.layout-desktop .trackSelections.focuscontainer-x .selectSource,
+.layout-desktop .trackSelections.focuscontainer-x .selectSource {
+    margin-left: 2em;
+}
+
 .layout-tv .trackSelections.focuscontainer-x .selectVideo,
 .layout-tv .trackSelections.focuscontainer-x .selectAudio,
 .layout-tv .trackSelections.focuscontainer-x .selectSubtitles,
 .layout-tv .trackSelections.focuscontainer-x .selectSource {
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 #seriesScheduleSection {
@@ -4612,8 +4615,7 @@ button[is="paper-icon-button-light"].cardOverlayButton.cardOverlayButton-hover.i
     line-height: 2.5vh;
 }
 
-.layout-desktop.trackSelections .selectLabel::before,
-.layout-tv .trackSelections .selectLabel::before {
+.layout-desktop.trackSelections .selectLabel::before {
     font-size: 1vw;
     line-height: 1vh;
 }
