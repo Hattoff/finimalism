@@ -1904,11 +1904,11 @@ button.is-emby-button emby-button {
   background: transparent;
 }
 
-.verticalSection.section0 .textActionButton[data-type="CollectionFolder"],
+/* .verticalSection.section0 .textActionButton[data-type="CollectionFolder"],
 .verticalSection.section0 .textActionButton[data-type="UserView"]
  {
   display: none;
-}
+} */
 
 .layout-desktop .verticalSection-extrabottompadding,
 .layout-tv .verticalSection-extrabottompadding {
