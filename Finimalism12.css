@@ -1443,10 +1443,10 @@ progress {
   flex-wrap: wrap;
 }
 
-.layout-desktop #homeTab .section0 .verticalSection.verticalSection-extrabottompadding .itemsContainer.padded-left.padded-right.vertical-wrap.focuscontainer-x,
+/* .layout-desktop #homeTab .section0 .verticalSection.verticalSection-extrabottompadding .itemsContainer.padded-left.padded-right.vertical-wrap.focuscontainer-x,
 .layout-tv #homeTab .section0 .verticalSection.verticalSection-extrabottompadding .itemsContainer.padded-left.padded-right.vertical-wrap.focuscontainer-x {
   justify-content: space-evenly;
-}
+} */
 
 .itemsContainer.padded-left {
   flex: 1;
@@ -1879,9 +1879,9 @@ button.is-emby-button emby-button {
 .layout-tv .verticalSection.section2 .card.overflowBackdropCard {
 }
 
-.verticalSection.section0 .card[data-type="CollectionFolder"] .cardBox {
+/* .verticalSection.section0 .card[data-type="CollectionFolder"] .cardBox {
   background: transparent;
-}
+} */
 
 /* .verticalSection.section0 .textActionButton[data-type="CollectionFolder"],
 .verticalSection.section0 .textActionButton[data-type="UserView"]
